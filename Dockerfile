@@ -11,6 +11,6 @@ WORKDIR /code
 RUN pip install -r requirements.txt
 
 # Запуск проекта
-CMD ["uvicorn", "main:app", "--reload", "--host=0.0.0.0"]
+CMD ["uvicorn", "main:app", "--reload", "--host=0.0.0.0", "--port=2323"]
 
 # В терминале docker run name
