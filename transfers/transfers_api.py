@@ -6,7 +6,7 @@ from database.transferservice import create_transaction_db, cancel_transfer_db, 
 
 from transfers import CreateTransferValidator, CancelTransferValidator
 
-transfer_router = APIRouter(prefix='/transaction', tags=['Работа с платежами'])
+transfer_router = APIRouter(prefix='/transaction', tags=['Работа с платежами22'])
 
 
 # Запрос на создания транзакций
